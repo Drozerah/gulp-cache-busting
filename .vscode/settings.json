@@ -1,0 +1,39 @@
+
+{
+  // Live Server
+  "liveServer.settings.root": "/",
+  //  "liveServer.settings.root": "/src",
+  "liveServer.settings.host": "localhost",
+  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+  "liveServer.settings.mount": [
+      ["/", "./src/"],
+  ],
+  // "liveServer.settings.port": 3000,
+  // -----------
+  // live Sass Compiler
+  "liveSassCompile.settings.showOutputWindow": true,
+  "liveSassCompile.settings.generateMap": false,
+  // "liveSassCompile.settings.includeItems": [
+  //     "path/subpath/a.scss"
+  // ],
+  "liveSassCompile.settings.formats": [
+      {
+          "format": "expanded",
+          "extensionName": ".css",
+          "savePath": "/src/css"
+      },
+      // {
+      //     "format": "compressed",
+      //     "extensionName": ".min.css",
+      //     "savePath": "/src/css"
+      // },
+  ],
+  "liveSassCompile.settings.autoprefix": [
+      "> 1%",
+      "last 2 versions"
+  ],
+  "liveSassCompile.settings.excludeList": [ 
+      "**/node_modules/**",
+      ".vscode/**"
+  ]
+}
